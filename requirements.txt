@@ -1,0 +1,9 @@
+build==0.3.0
+packaging==20.9
+pep517==0.9.1
+py4j==0.10.9
+pyparsing==2.4.7
+pyspark==3.0.2
+pyspark-stubs==3.0.0.post1
+setuptools==54.0.0
+pytest==6.2.2
