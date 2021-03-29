@@ -1,12 +1,15 @@
 #To execute locally
+create venv enf not exist
+```bash
+python -m venv env
+````
+### active venv
+
+`env\Scripts\activate.bat`
 
 ### install dependencies
 
 `pip install --upgrade --force-reinstall -r requirements.txt`
-
-### active venv
-
-`env\Scripts\activate.bat`
 
 ### dump dependencies periodically if dependencies changed
 `bash
