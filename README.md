@@ -1,26 +1,3 @@
-#To execute locally
-create venv enf not exist
-```bash
-python -m venv env
-````
-### active venv
-
-`env\Scripts\activate.bat`
-
-### install dependencies
-
-`pip install --upgrade --force-reinstall -r requirements.txt`
-
-### dump dependencies periodically if dependencies changed
-`bash
-py -m pip freeze > requirements.txt
-`
-### to execute tests manually
-```bash
-python -m pytest tests\sources\test_expedia_assure.py
-```
-
-
 #To execute remotely
 - log in to https://portal.azure.com/ 
 - select "azure databricks"
@@ -31,5 +8,4 @@ Within databricks User Interface
 - click 'create cluster' (import spark-config.json)
 - Wait until cluster is created
 - Create notebook, select created cluster
-- copy content of "main.py" excluding line where cluster is stated manually
-
+- copy content of jupiter playground (spark & ml separately)
